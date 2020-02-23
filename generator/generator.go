@@ -8,6 +8,7 @@ import (
 	"os"
 )
 
+// GenerateDesktopIcon asks for a series of user input and use them to generate a .desktop file at /usr/share/applications/ folder.
 func GenerateDesktopIcon() {
 	params := []string{
 		"version",
